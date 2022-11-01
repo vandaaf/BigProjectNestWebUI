@@ -8,7 +8,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   defaultCommandTimeout: 10000,
   env: {
-    base_url: 'https://magento.softwaretestingboard.com/'
+    base_url: 'https://magento.softwaretestingboard.com'
   },
 
   e2e: {
@@ -19,7 +19,7 @@ module.exports = defineConfig({
         {
           alias: {
             '@tests': './tests',
-            '@helpers': '/tests/helpers'
+            '@helpers': './tests/helpers'
           },
         },
       ]);
