@@ -14,7 +14,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       let options = browserify.defaultOptions;
-      options.broserifyOptions.transform[1][1].plugins.push([
+      options.browserifyOptions.transform[1][1].plugins.push([
         'module-resolver',
         {
           alias: {
