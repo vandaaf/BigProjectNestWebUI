@@ -1,0 +1,1 @@
+export const customerLogin = `.borderM > :nth-child(1) > .btn`
