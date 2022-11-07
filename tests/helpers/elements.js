@@ -17,3 +17,7 @@ export function select(selector, val) {
 export function fillfield(selector, val) {
     return cy.get(selector).type(val)
 }
+
+export function wait(val){
+    return cy.wait(val)
+}
