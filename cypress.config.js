@@ -8,7 +8,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   defaultCommandTimeout: 10000,
   env: {
-    base_url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+    base_url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#'
   },
 
   e2e: {
