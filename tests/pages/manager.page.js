@@ -1,0 +1,8 @@
+export const customersOption = '[ng-class="btnClass3"]'
+export const searchField = '.form-control'
+export const firstNameCol = 'tr.ng-scope > :nth-child(1)'
+export const lastNameCol = 'tr.ng-scope > :nth-child(2)'
+export const firstNameContent = 'Hermoine' 
+export const lastNameContent = 'Granger'
+export const deleteButton = ':nth-child(5) > button'
+export const table = '.table'
