@@ -1,0 +1,8 @@
+export const opAccountOption = '[ng-class="btnClass2"]'
+export const custDropdown = 'form.ng-pristine > :nth-child(1)'
+export const custSelect = '#userSelect'
+export const custName = 'Harry Potter'
+export const currencyDropdown = 'form.ng-pristine > :nth-child(2)'
+export const currencySelect = '#currency'
+export const currency = 'Pound'
+export const processSubmit = 'form.ng-dirty > button'
