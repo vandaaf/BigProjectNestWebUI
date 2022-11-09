@@ -1,0 +1,5 @@
+export const addCustOption = '[ng-class="btnClass1"]'
+export const fNameField = '[ng-model="fName"]'
+export const lNameField = '[ng-model="lName"]'
+export const pCodeField = '[ng-model="postCd"]'
+export const addCustButton = 'form.ng-dirty > .btn'
