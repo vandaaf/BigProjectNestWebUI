@@ -7,4 +7,6 @@ export const successDeposit = 'Deposit Successful';
 export const withdrawalOption = '[ng-class="btnClass3"]';
 export const withdrawalSubmit = 'form.ng-dirty > .btn';
 export const successWithdraw = 'Transaction successful';
-export const failedWithdraw = 'Transaction Failed. You can not withdraw amount more than the balance.'
+export const failedWithdraw = 'Transaction Failed. You can not withdraw amount more than the balance.';
+
+export const transactionOption = '[ng-class="btnClass1"]'
