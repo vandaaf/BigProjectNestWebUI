@@ -20,5 +20,7 @@ describe('Success to login', () => {
         assert.shouldBeVisible(customerList.customerDropdown)
         element.select(logout.nameSelect, logout.name)
         element.click(loginPage.customerLogin)
+
+        assert.textShouldBeVisible(loginPage.greetingContainer, loginPage.greetingName)
     });
 })
